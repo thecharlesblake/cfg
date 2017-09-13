@@ -135,8 +135,5 @@ function f () {
     fi
 }
 
+alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
 
-#THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
-export SDKMAN_DIR="/home/thecharlesblake/.sdkman"
-[[ -s "/home/thecharlesblake/.sdkman/bin/sdkman-init.sh" ]] && source "/home/thecharlesblake/.sdkman/bin/sdkman-init.sh"
-alias config='/usr/bin/git --git-dir=/home/thecharlesblake/.cfg/ --work-tree=/home/thecharlesblake'
