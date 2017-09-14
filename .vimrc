@@ -74,3 +74,6 @@ let g:syntastic_check_on_wq = 0
 " --- Nerd Tree
 map <C-n> :NERDTreeToggle<CR>
 
+" Show 80 column limit
+set cc=80
+
