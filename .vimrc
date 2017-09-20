@@ -3,7 +3,7 @@ execute pathogen#infect()
 syntax on
 filetype plugin indent on
 
-" --- Editor Settings ---
+" --- Editor Settings --
 
 " line numbers
 set number
@@ -11,11 +11,10 @@ set number
 set mouse=a
 
 " tab settings
-set tabstop=4 softtabstop=4 shiftwidth=4 expandtab
+set tabstop=2 softtabstop=0 shiftwidth=2 noexpandtab
 "
 " smart settings
 set smartcase
-set smarttab
 set smartindent
 set autoindent
 
@@ -28,10 +27,9 @@ set cursorline
 " fixes some bug issues
 set nocompatible
 
-" doesn't wrap
-set nowrap
 " text width before wrapping
-set tw=80
+set tw=79
+set fo+=t
 
 " history
 set history=1000
