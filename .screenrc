@@ -15,6 +15,9 @@ termcapinfo xterm 'Co#256:AB=\E[48;5;%dm:AF=\E[38;5;%dm'
 # Enable 256 color term
 term xterm-256color
 
+caption string "%{= dd} "
+rendition so "="
+
 # - Startup -
 
 # Split vertically
