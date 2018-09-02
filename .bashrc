@@ -137,3 +137,6 @@ function f () {
 
 alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
 
+# opens screen on startup
+screen
+
