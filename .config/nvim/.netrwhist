@@ -1,0 +1,6 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =4
+let g:netrw_dirhist_1='/Users/chblake/.config/nvim'
+let g:netrw_dirhist_2='/Users/chblake/projects/test/spring-boot/protobuf/build'
+let g:netrw_dirhist_3='/Users/chblake/pers/projects/pip-solitaire/pip_app'
+let g:netrw_dirhist_4='/Users/chblake/projects/EPS/pricing-intelligence-service/build'

@@ -8,6 +8,8 @@ https://developer.atlassian.com/blog/2016/02/best-way-to-store-dotfiles-git-bare
 
 To install the dotfiles on a new system, just run:
 
+todo: install oh-my-zsh
+
 ```
 curl -Lks http://bit.do/cbdotfiles | /bin/bash
 ```
