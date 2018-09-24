@@ -4,6 +4,8 @@ alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
 # Path to your oh-my-zsh installation.
 export ZSH="/Users/chblake/.oh-my-zsh"
 
+POWERLEVEL9K_MODE='nerdfont-complete'
+
 ZSH_THEME="powerlevel9k/powerlevel9k"
 POWERLEVEL9K_COLOR_SCHEME='light'
 
@@ -28,11 +30,10 @@ alias oldvim="vim"
 
 # see https://medium.com/@Clovis_app/configuration-of-a-beautiful-efficient-terminal-and-prompt-on-osx-in-7-minutes-827c29391961
 
-POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(dir rbenv vcs)
-POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(status root_indicator background_jobs history time)
+POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(dir vcs)
+POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(status history time)
 
 POWERLEVEL9K_PROMPT_ON_NEWLINE=true
-POWERLEVEL9K_RPROMPT_ON_NEWLINE=true
 
 # Add a space in the first prompt
 POWERLEVEL9K_MULTILINE_FIRST_PROMPT_PREFIX="%f"
@@ -49,3 +50,12 @@ POWERLEVEL9K_PROMPT_ADD_NEWLINE=true
 
 POWERLEVEL9K_VCS_MODIFIED_BACKGROUND=’red’
 
+POWERLEVEL9K_VCS_SHORTEN_LENGTH=15
+POWERLEVEL9K_VCS_SHORTEN_MIN_LENGTH=20
+POWERLEVEL9K_VCS_SHORTEN_STRATEGY="truncate_from_right"
+POWERLEVEL9K_VCS_SHORTEN_DELIMITER=".."
+
+# Double quotes are important here!
+POWERLEVEL9K_DIR_PATH_SEPARATOR="%F{white} $(print_icon 'LEFT_SUBSEGMENT_SEPARATOR') %F{white}"
+
+POWERLEVEL9K_SHORTEN_STRATEGY='truncate_to_last'
