@@ -137,6 +137,20 @@ function f () {
 
 alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
 
-# opens screen on startup
-screen
+export JAVA_HOME="/usr/lib/jvm/java-8-oracle/"
+
+# >>> conda initialize >>>
+# !! Contents within this block are managed by 'conda init' !!
+__conda_setup="$('/home/thecharlesblake/anaconda3/bin/conda' 'shell.bash' 'hook' 2> /dev/null)"
+if [ $? -eq 0 ]; then
+    eval "$__conda_setup"
+else
+    if [ -f "/home/thecharlesblake/anaconda3/etc/profile.d/conda.sh" ]; then
+        . "/home/thecharlesblake/anaconda3/etc/profile.d/conda.sh"
+    else
+        export PATH="/home/thecharlesblake/anaconda3/bin:$PATH"
+    fi
+fi
+unset __conda_setup
+# <<< conda initialize <<<
 
