@@ -71,24 +71,3 @@ POWERLEVEL9K_DIR_PATH_SEPARATOR="%F{white} $(print_icon 'LEFT_SUBSEGMENT_SEPARAT
 POWERLEVEL9K_VCS_CLEAN_FOREGROUND='white'
 POWERLEVEL9K_VCS_CLEAN_BACKGROUND='31'
 
-# Requested by mujoco
-export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/home/thecharlesblake/.mujoco/mujoco200/bin
-
-
-export PATH="/home/thecharlesblake/anaconda3/bin:$PATH"
-# >>> conda initialize >>>
-# !! Contents within this block are managed by 'conda init' !!
-__conda_setup="$('/home/thecharlesblake/anaconda3/bin/conda' 'shell.zsh' 'hook' 2> /dev/null)"
-if [ $? -eq 0 ]; then
-    eval "$__conda_setup"
-else
-    if [ -f "/home/thecharlesblake/anaconda3/etc/profile.d/conda.sh" ]; then
-        . "/home/thecharlesblake/anaconda3/etc/profile.d/conda.sh"
-    else
-        export PATH="/home/thecharlesblake/anaconda3/bin:$PATH"
-    fi
-fi
-unset __conda_setup
-# <<< conda initialize <<<
-
-export PATH="/home/thecharlesblake/opt/pycharm-2020.2.2/bin:$PATH"
